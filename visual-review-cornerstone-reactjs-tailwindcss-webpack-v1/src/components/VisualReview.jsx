@@ -14,7 +14,7 @@ function VisualReview({ template }) {
 
   const [zoom, setZoom] = useState(1);
   const [opacity, setOpacity] = useState(0.2); // Default opacity value
-  const [layout, setLayout] = useState('all');
+  const [layout, setLayout] = useState('3d');
 
   const gridTemplate = leftPanelVisibility && rightPanelVisibility
     ? 'grid-cols-[auto,1fr,auto]'
